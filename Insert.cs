@@ -40,7 +40,7 @@ namespace tsenaFinal
             }
 
             // Boîtes pour Andravohangy (grille 5x3)
-            startX = 650; // X de départ (selon la table Marche)
+            startX = 400; // X de départ (selon la table Marche)
             width = 60;   // Largeur selon la table Marche
             height = 50;  // Hauteur selon la table Marche
             spacingX = 70; // Espacement horizontal (60 + 10)
@@ -62,6 +62,8 @@ namespace tsenaFinal
 
         public static void InsertDonnees(Connexion connexion)
         {
+            /*Marche.Create(connexion, "Nosy Be", 30, 100, 30, 50);
+            Marche.Create(connexion, "Andravoahangy", 400, 100, 40, 50);*/
 
             Insert.InsertBox(connexion);
 
@@ -145,19 +147,19 @@ namespace tsenaFinal
              Paiement.RealInsertion(connexion, 1, 8, 1, 2023, 1050000, DateTime.Parse("2023-01-01"));*/
 
             // Paiements 2022
-            Paiement.RealInsertion(connexion, 1, 1, 4000000, DateTime.Parse("2022-12-12"));
-            Paiement.RealInsertion(connexion, 1, 2, 6000000, DateTime.Parse("2022-12-12"));
-            Paiement.RealInsertion(connexion, 1, 3, 6000000, DateTime.Parse("2022-12-12"));
-            Paiement.RealInsertion(connexion, 1, 4, 23600000, DateTime.Parse("2022-12-12"));
-            Paiement.RealInsertion(connexion, 1, 5, 11700000, DateTime.Parse("2022-12-12"));
+            Paiement.RealInsertion(connexion, 1, 1, 4000000, DateTime.Parse("2022-12-12"),5);
+            Paiement.RealInsertion(connexion, 1, 2, 6000000, DateTime.Parse("2022-12-12"),5);
+            Paiement.RealInsertion(connexion, 1, 3, 6000000, DateTime.Parse("2022-12-12"),5);
+            Paiement.RealInsertion(connexion, 1, 4, 23600000, DateTime.Parse("2022-12-12"),5);
+            Paiement.RealInsertion(connexion, 1, 5, 11700000, DateTime.Parse("2022-12-12"),5);
 
             // Paiements 2023
-            Paiement.RealInsertion(connexion, 1, 6, 400000, DateTime.Parse("2023-01-01"));
-            Paiement.RealInsertion(connexion, 1, 2, 600000, DateTime.Parse("2023-01-01"));
-            Paiement.RealInsertion(connexion, 1, 3, 600000, DateTime.Parse("2023-01-01"));
-            Paiement.RealInsertion(connexion, 1, 4, 1050000, DateTime.Parse("2023-01-01"));
-            Paiement.RealInsertion(connexion, 1, 7, 1050000, DateTime.Parse("2023-01-01"));
-            Paiement.RealInsertion(connexion, 1, 8, 1050000, DateTime.Parse("2023-01-01"));
+            Paiement.RealInsertion(connexion, 1, 6, 400000, DateTime.Parse("2023-01-01"),5);
+            Paiement.RealInsertion(connexion, 1, 2, 600000, DateTime.Parse("2023-01-01"),5);
+            Paiement.RealInsertion(connexion, 1, 3, 600000, DateTime.Parse("2023-01-01"),5);
+            Paiement.RealInsertion(connexion, 1, 4, 1050000, DateTime.Parse("2023-01-01"),5);
+            Paiement.RealInsertion(connexion, 1, 7, 1050000, DateTime.Parse("2023-01-01"),5);
+            Paiement.RealInsertion(connexion, 1, 8, 1050000, DateTime.Parse("2023-01-01"),5);
         }
     }
 }

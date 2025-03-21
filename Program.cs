@@ -10,7 +10,7 @@ namespace tsenaFinal
         static void Main()
         {
             // Allouer une console
-            //AllocConsole();
+            AllocConsole();
 
             ApplicationConfiguration.Initialize();
 
@@ -26,6 +26,8 @@ namespace tsenaFinal
                 Console.WriteLine($"Erreur lors de l'ouverture de la connexion : {ex.Message}");
                 return;
             }
+
+            //Console.WriteLine(Paiement.CalculerMontantAvecRetard(100000, 1,5));
 
             // Insérer les données (décommentez si nécessaire)
             //Insert.InsertDonnees(connexion);

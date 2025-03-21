@@ -18,4 +18,5 @@ C:\Users\Ny Eja\Documents\fianarana ITU\S4\PROG\C#\tsenaFinal\bin\Debug\net8.0-w
 C:\Users\Ny Eja\Documents\fianarana ITU\S4\PROG\C#\tsenaFinal\bin\Debug\net8.0-windows\runtimes\unix\lib\net8.0\System.Data.Odbc.dll
 C:\Users\Ny Eja\Documents\fianarana ITU\S4\PROG\C#\tsenaFinal\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Data.Odbc.dll
 C:\Users\Ny Eja\Documents\fianarana ITU\S4\PROG\C#\tsenaFinal\obj\Debug\net8.0-windows\tsenaFinal.csproj.AssemblyReference.cache
+C:\Users\Ny Eja\Documents\fianarana ITU\S4\PROG\C#\tsenaFinal\obj\Debug\net8.0-windows\tsenaFinal.DetteForm.resources
 C:\Users\Ny Eja\Documents\fianarana ITU\S4\PROG\C#\tsenaFinal\obj\Debug\net8.0-windows\tsenaFinal.csproj.CopyComplete
